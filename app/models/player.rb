@@ -13,7 +13,7 @@ class Player < ApplicationRecord
         champions << player
       end
     end
-    # on affiche la liste des champions.
+    # on retourne la liste des champions.
     champions
   end
 end
